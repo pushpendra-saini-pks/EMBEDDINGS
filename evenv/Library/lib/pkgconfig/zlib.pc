@@ -1,0 +1,13 @@
+prefix=C:/EMBEDDINGS/evenv/Library
+exec_prefix=C:/EMBEDDINGS/evenv/Library
+libdir=C:/EMBEDDINGS/evenv/Library/lib
+sharedlibdir=C:/EMBEDDINGS/evenv/Library/lib
+includedir=C:/EMBEDDINGS/evenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
